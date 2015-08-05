@@ -10,8 +10,13 @@ namespace Excercises
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, Marcel!");
+
+            string myString = string.Format("Make: {0} {Model:{1}}", "BMW", "745li");
+
+            Console.WriteLine(myString);
             Console.ReadLine();
+
+
         }
     }
 }
